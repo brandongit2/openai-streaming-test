@@ -1,8 +1,9 @@
-import {ReactElement, ReactNode} from "react"
+import type {ReactElement, ReactNode} from "react"
+
 import "./styles.css"
 
 export const metadata = {
-	title: "openai streaming test",
+	title: `openai streaming test`,
 }
 
 export type AppLayoutProps = {
